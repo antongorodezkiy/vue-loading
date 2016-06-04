@@ -1,6 +1,6 @@
-import './style.css';
+//import './style.css';
 
-export default {
+module.exports = {
     params: ['loadingOptions'],
     handleShow () {
         let position = window.getComputedStyle(this.el).position;
