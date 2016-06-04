@@ -17,7 +17,7 @@ module.exports = {
 
         let msg = document.createElement('div');
         msg.className = 'vue-loading-msg';
-        msg.textContent = this.options.text;
+        msg.innerHTML = this.options.text;
         box.appendChild(msg);
 
         window.requestAnimationFrame(() => {
